@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eamaubBECeHDHibVtmnU606UDh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="JUnit.MainClass.testGetLocalNumber">
+    <configuration name="MainClass.getLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <option name="METHOD_NAME" value="getLocalNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass.testGetLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <option name="METHOD_NAME" value="testGetLocalNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainClass.testGetLocalNumber" />
+        <item itemvalue="JUnit.MainClass.getLocalNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="" />
+      <created>1594568144151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594568144151</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1580" height="223" key="GridCell.Tab.0.bottom" timestamp="1594569945319">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state width="1580" height="223" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
+    <state width="1580" height="223" key="GridCell.Tab.0.center" timestamp="1594569945319">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state width="1580" height="223" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
+    <state width="1580" height="223" key="GridCell.Tab.0.left" timestamp="1594569945319">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state width="1580" height="223" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
+    <state width="1580" height="223" key="GridCell.Tab.0.right" timestamp="1594569945319">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state width="1580" height="223" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
+    <state x="549" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594568791371">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="549" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2048.1114@0.0.2048.1114" timestamp="1594568791371" />
+    <state x="482" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1594568327491">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="482" y="191" width="672" height="678" key="search.everywhere.popup/0.0.2048.1114@0.0.2048.1114" timestamp="1594568327491" />
+  </component>
+</project>
