@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="" />
+    <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test2/MainClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kirill Khoroshevskiy &lt;ceasarrr12@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Task1.1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eamaubBECeHDHibVtmnU606UDh" />
@@ -29,14 +45,31 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="JUnit.MainClass.testGetLocalNumber">
+  <component name="RunManager" selected="JUnit.MainClass.testGetClassNumber">
     <configuration name="MainClass.getLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <option name="METHOD_NAME" value="getLocalNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass.testGetClassNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test2.MainClass" />
+      <option name="METHOD_NAME" value="testGetClassNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainClass.testGetClassNumber" />
         <item itemvalue="JUnit.MainClass.testGetLocalNumber" />
         <item itemvalue="JUnit.MainClass.getLocalNumber" />
       </list>
@@ -70,33 +104,78 @@
       <option name="presentableId" value="Default" />
       <updated>1594568144151</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test commit">
+      <created>1594573293028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594573293028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1580" height="223" key="GridCell.Tab.0.bottom" timestamp="1594569945319">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1594582998379">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="1580" height="223" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
-    <state width="1580" height="223" key="GridCell.Tab.0.center" timestamp="1594569945319">
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1594582998379" />
+    <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1594578503279">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="1580" height="223" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
-    <state width="1580" height="223" key="GridCell.Tab.0.left" timestamp="1594569945319">
+    <state x="605" y="218" key="FileChooserDialogImpl/0.0.2048.1114@0.0.2048.1114" timestamp="1594578503279" />
+    <state width="791" height="223" key="GridCell.Tab.0.bottom" timestamp="1594582913089">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="1580" height="223" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
-    <state width="1580" height="223" key="GridCell.Tab.0.right" timestamp="1594569945319">
+    <state width="791" height="223" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
+    <state width="791" height="223" key="GridCell.Tab.0.center" timestamp="1594582913089">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="1580" height="223" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594569945319" />
-    <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594572884816">
+    <state width="791" height="223" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
+    <state width="791" height="223" key="GridCell.Tab.0.left" timestamp="1594582913089">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="516" y="269" key="com.intellij.ide.util.TipDialog/0.0.2048.1114@0.0.2048.1114" timestamp="1594572884816" />
+    <state width="791" height="223" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
+    <state width="791" height="223" key="GridCell.Tab.0.right" timestamp="1594582913089">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state width="791" height="223" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
+    <state x="533" y="188" key="SettingsEditor" timestamp="1594575729569">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1594575729569" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1594576196341">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1594576196341" />
+    <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594582950041">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="516" y="269" key="com.intellij.ide.util.TipDialog/0.0.2048.1114@0.0.2048.1114" timestamp="1594582950041" />
     <state x="549" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594568791371">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="549" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2048.1114@0.0.2048.1114" timestamp="1594568791371" />
+    <state x="265" y="96" key="new project wizard" timestamp="1594578506596">
+      <screen x="0" y="0" width="2048" height="1114" />
+    </state>
+    <state x="265" y="96" key="new project wizard/0.0.2048.1114@0.0.2048.1114" timestamp="1594578506596" />
     <state x="482" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1594568327491">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
