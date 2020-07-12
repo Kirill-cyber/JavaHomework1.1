@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test2/MainClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test3/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test2/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test2/MainClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task1.1" />
+        <entry key="$PROJECT_DIR$" value="Task1.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="JUnit.MainClass.testGetClassNumber">
+  <component name="RunManager" selected="JUnit.MainClass.testGetClassString">
     <configuration name="MainClass.getLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,6 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClass.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test3" />
+      <option name="MAIN_CLASS_NAME" value="Test3.MainClass" />
+      <option name="METHOD_NAME" value="testGetClassString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClass.testGetLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainClass.testGetClassString" />
         <item itemvalue="JUnit.MainClass.testGetClassNumber" />
         <item itemvalue="JUnit.MainClass.testGetLocalNumber" />
         <item itemvalue="JUnit.MainClass.getLocalNumber" />
@@ -111,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594573293028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test commit">
+      <created>1594583195464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594583195464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,38 +154,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1594582998379">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1594583193697">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1594582998379" />
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1594583193697" />
     <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1594578503279">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="605" y="218" key="FileChooserDialogImpl/0.0.2048.1114@0.0.2048.1114" timestamp="1594578503279" />
-    <state width="791" height="223" key="GridCell.Tab.0.bottom" timestamp="1594582913089">
+    <state width="1582" height="223" key="GridCell.Tab.0.bottom" timestamp="1594585612806">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="791" height="223" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
-    <state width="791" height="223" key="GridCell.Tab.0.center" timestamp="1594582913089">
+    <state width="1582" height="223" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594585612806" />
+    <state width="1582" height="223" key="GridCell.Tab.0.center" timestamp="1594585612806">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="791" height="223" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
-    <state width="791" height="223" key="GridCell.Tab.0.left" timestamp="1594582913089">
+    <state width="1582" height="223" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594585612806" />
+    <state width="1582" height="223" key="GridCell.Tab.0.left" timestamp="1594585612805">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="791" height="223" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
-    <state width="791" height="223" key="GridCell.Tab.0.right" timestamp="1594582913089">
+    <state width="1582" height="223" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594585612805" />
+    <state width="1582" height="223" key="GridCell.Tab.0.right" timestamp="1594585612806">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="791" height="223" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594582913089" />
+    <state width="1582" height="223" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594585612806" />
     <state x="533" y="188" key="SettingsEditor" timestamp="1594575729569">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1594575729569" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1594576196341">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1594583218875">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1594576196341" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1594583218875" />
     <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594582950041">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
