@@ -1,3 +1,5 @@
+package Test1;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,15 +10,11 @@ public class MainClass {
     @Test
     public void testGetLocalNumber()
     {
-        Assert.assertEquals("Incorrect value has returned from getLocalNumber", 14, this.getLocalNumber();
+        Assert.assertEquals("Incorrect value has returned from getLocalNumber", 14, this.getLocalNumber());
     }
-
-
-
 
     public int getLocalNumber()
     {
         return 14;
-
     }
 }
