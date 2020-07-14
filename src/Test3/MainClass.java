@@ -10,24 +10,12 @@ public class MainClass
     @Test
     public void testGetClassString()
     {
-
-        if (getClassString().contains("Hello") | getClassString().contains("hello")) {
-
-            System.out.println("Test passed");
-
-        } else {
-            Assert.fail("String from getClassString has no Hello or hello: " + getClassString());
-        }
-
+            Assert.assertTrue("String from getClassString has no Hello or hello: " + getClassString(),getClassString().contains("Hello") || getClassString().contains("hello"));
     }
-
-
-
 
     public String getClassString()
     {
         return class_string;
-
     }
 
 }
