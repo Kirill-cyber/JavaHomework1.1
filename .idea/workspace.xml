@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_4_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaHomework1.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaHomework1.1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/META-INF/JavaHomework1.1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test3/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test3/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHomework1.1/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
+  <component name="RunManager" selected="JUnit.FirstTest.secondTest">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,17 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test3" />
-      <option name="MAIN_CLASS_NAME" value="Test3.MainClass" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="secondTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testCancelSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,23 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass.testGetLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <option name="METHOD_NAME" value="testGetLocalNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.secondTest" />
         <item itemvalue="JUnit.FirstTest.firstTest" />
+        <item itemvalue="JUnit.FirstTest.testCancelSearch" />
+        <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.MainClass.testGetClassString" />
-        <item itemvalue="JUnit.MainClass.testGetLocalNumber" />
-        <item itemvalue="JUnit.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594741716206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test commit">
+      <created>1595147576296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595147576296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,38 +174,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1594741714435">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1595147574016">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1594741714435" />
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1595147574016" />
     <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1595076349466">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="605" y="218" key="FileChooserDialogImpl/0.0.2048.1114@0.0.2048.1114" timestamp="1595076349466" />
-    <state width="2004" height="300" key="GridCell.Tab.0.bottom" timestamp="1594917825954">
+    <state width="2004" height="2" key="GridCell.Tab.0.bottom" timestamp="1595528659509">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1594917825954" />
-    <state width="2004" height="300" key="GridCell.Tab.0.center" timestamp="1594917825954">
+    <state width="2004" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
+    <state width="2004" height="2" key="GridCell.Tab.0.center" timestamp="1595528659509">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="300" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1594917825954" />
-    <state width="2004" height="300" key="GridCell.Tab.0.left" timestamp="1594917825954">
+    <state width="2004" height="2" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
+    <state width="2004" height="2" key="GridCell.Tab.0.left" timestamp="1595528659509">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="300" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1594917825954" />
-    <state width="2004" height="300" key="GridCell.Tab.0.right" timestamp="1594917825954">
+    <state width="2004" height="2" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
+    <state width="2004" height="2" key="GridCell.Tab.0.right" timestamp="1595528659509">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="300" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1594917825954" />
+    <state width="2004" height="2" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
     <state x="533" y="188" key="SettingsEditor" timestamp="1595076368813">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1595076368813" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1594741740462">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595147594368">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1594741740462" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1595147594368" />
     <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594903524165">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
