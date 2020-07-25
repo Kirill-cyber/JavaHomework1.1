@@ -39,45 +39,61 @@ public class FirstTest {
     public void firstTest()
     {
 
-        waitForElementPresentByXpath(
-                "//*[contains(@text,'In the news')]",
-                "Cannot find element on the screen",
-                5
-        );
-        assertElementHasText(
-                "//*[contains(@text,'In the news')]",
-                "In the news",
-                "Unexpected text"
-        );
-
-
-    }
-
-    @Test
-    public  void secondTest()
-    {
         waitForElementAndClick(
                 "//*[contains(@text,'Search Wikipedia')]",
                 "Cannot find search Wiki input",
                 5
         );
-        waitForElementPresentByXpath(
+        waitForElementAndSendKeys(
                 "//*[contains(@text,'Search…')]",
-                "Cannot find element on the screen",
+                "Java",
+                "Cannot find search element on the screen",
                 5
         );
-        assertElementHasText(
-                "//*[contains(@text,'Search…')]",
-                "Search…",
-                "Unexpected text"
+        waitForElementPresentByXpath(
+                "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']",
+                "Cannot find first element on the screen",
+                10
         );
+        waitForElementPresentByXpath(
+                "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Programming language']",
+                "Cannot find second element on the screen",
+                5
+        );
+        waitForElementPresentByXpath(
+                "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Island of Indonesia']",
+                "Cannot find third element on the screen",
+                5
+        );
+        waitForElementAndClick(
+                "//android.widget.ImageView[@content-desc=\"Clear query\"]",
+                "Cannot find close button",
+                5
+        );
+        waitForElementNotPresent(
+                "//android.widget.ImageView[@content-desc=\"Clear query\"]",
+                "X is still on the page - page hasn't returned",
+                5
+        );
+
     }
+
 
     private WebElement waitForElementPresentByXpath(String xpath, String error_message, long timeoutInSeconds)
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
         By by = By.xpath(xpath);
+        return wait.until(
+                ExpectedConditions.presenceOfElementLocated(by)
+        );
+    }
+
+    private WebElement waitForElementPresentById(String id, String error_message, long timeoutInSeconds)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+        wait.withMessage(error_message + "\n");
+        By by = By.id(id);
         return wait.until(
                 ExpectedConditions.presenceOfElementLocated(by)
         );
@@ -95,6 +111,13 @@ public class FirstTest {
         return element;
     }
 
+    private WebElement waitForElementAndClickById(String id, String error_message, long timeoutInSeconds)
+    {
+        WebElement element = waitForElementPresentById(id, error_message, timeoutInSeconds);
+        element.click();
+        return element;
+    }
+
     private WebElement waitForElementAndSendKeys(String xpath, String value, String error_message, long timeoutInSeconds)
     {
         WebElement element = waitForElementPresentByXpath(xpath, error_message, timeoutInSeconds);
@@ -102,19 +125,15 @@ public class FirstTest {
         return element;
     }
 
-    private void assertElementHasText(String xpath, String expectedText, String error_message) {
-        WebElement text_element = driver.findElementByXPath(String.valueOf(xpath));
 
-
-        String actual_text = text_element.getText();
-        Assert.assertEquals(
-                error_message,
-                expectedText,
-                actual_text
+    private boolean waitForElementNotPresent(String xpath, String error_message, long timeoutInSeconds)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+        wait.withMessage(error_message + "\n");
+        By by = By.xpath(xpath);
+        return wait.until(
+                ExpectedConditions.invisibilityOfElementLocated(by)
         );
-
     }
 
-
 }
-

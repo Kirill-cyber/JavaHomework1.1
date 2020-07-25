@@ -26,7 +26,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Test1.3" />
+        <entry key="$PROJECT_DIR$" value="Test3.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.secondTest">
+  <component name="RunManager" selected="JUnit.FirstTest.firstTest">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.secondTest" />
         <item itemvalue="JUnit.FirstTest.firstTest" />
+        <item itemvalue="JUnit.FirstTest.secondTest" />
         <item itemvalue="JUnit.FirstTest.testCancelSearch" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.MainClass.testGetClassString" />
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595147576296</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test commit 3.1">
+      <created>1595669355134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595669355134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,41 +178,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
+    <MESSAGE value="Test commit 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit 3.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1595147574016">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1595669352827">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1595147574016" />
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1595669352827" />
     <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1595076349466">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="605" y="218" key="FileChooserDialogImpl/0.0.2048.1114@0.0.2048.1114" timestamp="1595076349466" />
-    <state width="2004" height="2" key="GridCell.Tab.0.bottom" timestamp="1595528659509">
+    <state width="2004" height="257" key="GridCell.Tab.0.bottom" timestamp="1595676768727">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
-    <state width="2004" height="2" key="GridCell.Tab.0.center" timestamp="1595528659509">
+    <state width="2004" height="257" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1595676768727" />
+    <state width="2004" height="257" key="GridCell.Tab.0.center" timestamp="1595676768727">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="2" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
-    <state width="2004" height="2" key="GridCell.Tab.0.left" timestamp="1595528659509">
+    <state width="2004" height="257" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1595676768727" />
+    <state width="2004" height="257" key="GridCell.Tab.0.left" timestamp="1595676768727">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="2" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
-    <state width="2004" height="2" key="GridCell.Tab.0.right" timestamp="1595528659509">
+    <state width="2004" height="257" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1595676768727" />
+    <state width="2004" height="257" key="GridCell.Tab.0.right" timestamp="1595676768727">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="2" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1595528659509" />
+    <state width="2004" height="257" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1595676768727" />
     <state x="533" y="188" key="SettingsEditor" timestamp="1595076368813">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1595076368813" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595147594368">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595669375947">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1595147594368" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1595669375947" />
     <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594903524165">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
