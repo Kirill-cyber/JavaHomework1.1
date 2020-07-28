@@ -65,14 +65,14 @@ public class FirstTest {
                 "Cannot find third element on the screen",
                 5
         );
-        waitForElementAndClick(
-                "//android.widget.ImageView[@content-desc=\"Clear query\"]",
+        waitForElementAndClickById(
+                "org.wikipedia:id/search_close_btn",
                 "Cannot find close button",
                 5
         );
         waitForElementNotPresent(
-                "//android.widget.ImageView[@content-desc=\"Clear query\"]",
-                "X is still on the page - page hasn't returned",
+                "org.wikipedia:id/page_list_item_image",
+                "Results of searching are still on the page",
                 5
         );
 
@@ -126,11 +126,11 @@ public class FirstTest {
     }
 
 
-    private boolean waitForElementNotPresent(String xpath, String error_message, long timeoutInSeconds)
+    private boolean waitForElementNotPresent(String id, String error_message, long timeoutInSeconds)
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
-        By by = By.xpath(xpath);
+        By by = By.id(id);
         return wait.until(
                 ExpectedConditions.invisibilityOfElementLocated(by)
         );
