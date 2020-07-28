@@ -19,7 +19,7 @@ public class FirstTest {
     public void setUp() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "nexus");
+        capabilities.setCapability("deviceName", "nexus5Test");
         capabilities.setCapability("platformVersion", "8.0");
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("appPackage", "org.wikipedia");
@@ -106,7 +106,7 @@ public class FirstTest {
         WebElement text_element = driver.findElementByXPath(String.valueOf(xpath));
 
 
-        String actual_text = text_element.getText();
+        String actual_text = text_element.getAttribute("text");
         Assert.assertEquals(
                 error_message,
                 expectedText,
