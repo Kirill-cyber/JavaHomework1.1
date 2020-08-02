@@ -174,7 +174,6 @@ public class FirstTest {
                 5
         );
 
-
         waitForElementAndClick(
                 By.xpath("//android.widget.FrameLayout[@content-desc='My lists']"),
                 "Cannot find navigation button to My list",
@@ -208,6 +207,27 @@ public class FirstTest {
                 By.xpath("//*[@text='island of Indonesia']"),
                 "Cannot find first saved article",
                 5
+        );
+
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/page_list_item_description"),
+                "Cannot find last saved article",
+                5
+        );
+
+        String expected_title_of_saved_article = "Java";
+
+        String real_title_of_saved_article = waitForElementAndGetAttribute(
+                By.id("org.wikipedia:id/view_page_title_text"),
+                "text",
+                "Cannot get text attribute from title",
+                15
+        );
+
+        Assert.assertEquals(
+                "Title of the page is not equal to expected result",
+                expected_title_of_saved_article,
+                real_title_of_saved_article
         );
 
 
