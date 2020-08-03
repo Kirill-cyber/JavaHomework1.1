@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Test3.2" />
+        <entry key="$PROJECT_DIR$" value="4.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596393701628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test commit 4.1.2">
+      <created>1596398235372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596398235372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,13 +195,14 @@
     <MESSAGE value="Test commit 3.1" />
     <MESSAGE value="Test commit 3.2" />
     <MESSAGE value="Test commit 4.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit 4.1" />
+    <MESSAGE value="Test commit 4.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit 4.1.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1596393700517">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1596398234567">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1596393700517" />
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1596398234567" />
     <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1595076349466">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
@@ -218,10 +227,10 @@
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1595076368813" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596393773688">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596398244713">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1596393773688" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1596398244713" />
     <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594903524165">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>

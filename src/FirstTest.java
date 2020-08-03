@@ -39,6 +39,7 @@ public class FirstTest {
 
 
 
+
     @Test
     public void testSaveTwoArticleCheck()
     {
@@ -164,8 +165,8 @@ public class FirstTest {
 
         waitForElementAndClick(
                 By.xpath("//android.widget.TextView[@text='Articles folder']"),
-                "Cannot find More Options button",
-                5
+                "Cannot find Articles folder",
+                10
         );
 
         waitForElementAndClick(
@@ -232,6 +233,40 @@ public class FirstTest {
 
 
     }
+
+    @Test
+    public void testAssertTitle()
+    {
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipedia input'",
+                5
+        );
+
+        waitForElementAndSendKeys(
+                By.xpath("//*[contains(@text, 'Search…')]"),
+                "Java",
+                "Cannot find search input",
+                5
+        );
+
+        waitForElementAndClick(
+                By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Island of Indonesia']"),
+                "Cannot find 'Island of Indonesia' topic searching by 'Java'",
+                15
+        );
+
+        assertElementPresent(
+                By.id("org.wikipedia:id/view_page_title_text"),
+                "Cannot find title of article"
+        );
+
+
+    }
+
+
+
+
 
 
 
@@ -349,10 +384,24 @@ public class FirstTest {
         }
     }
 
+    private void assertElementPresent(By by, String error_message)
+    {
+        int amount_of_elements = getAmountOfElements(by);
+        if (amount_of_elements == 0)
+        {
+            String default_message = "An element '" + by.toString() + "' supposed to be present";
+            throw new AssertionError(default_message  + " " + error_message);
+        }
+    }
+
+
+
     private String waitForElementAndGetAttribute(By by, String attribute, String error_message, long timeoutInSeconds)
     {
         WebElement element = waitForElementPresent(by, error_message, timeoutInSeconds);
         return element.getAttribute(attribute);
     }
+
+
 
 }
