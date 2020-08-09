@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f21219d4-93c4-4564-be6d-9499952389f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test2/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomework1.1/Test3/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test3/MainClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.1" />
+        <entry key="$PROJECT_DIR$" value="Test4.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,51 +54,82 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.saveFirstArticleToMyList">
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyListsTests.testSaveTwoArticleCheck">
+    <configuration name="ArticleTests.testAssertTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ArticleTests" />
+      <option name="METHOD_NAME" value="testAssertTitle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.saveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyListsTests.testSaveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="saveFirstArticleToMyList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyListsTests" />
+      <option name="METHOD_NAME" value="testSaveFirstArticleToMyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyListsTests.testSaveTwoArticleCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="secondTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyListsTests" />
+      <option name="METHOD_NAME" value="testSaveTwoArticleCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testCancelSearchAndCheckDeletingResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHomework1.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testCancelSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testCancelSearchAndCheckDeletingResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHomework1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.saveFirstArticleToMyList" />
-        <item itemvalue="JUnit.FirstTest.firstTest" />
-        <item itemvalue="JUnit.FirstTest.secondTest" />
-        <item itemvalue="JUnit.FirstTest.testCancelSearch" />
-        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.MyListsTests.testSaveTwoArticleCheck" />
+        <item itemvalue="JUnit.ArticleTests.testAssertTitle" />
+        <item itemvalue="JUnit.SearchTests.testCancelSearchAndCheckDeletingResults" />
+        <item itemvalue="JUnit.SearchTests.testSearch" />
+        <item itemvalue="JUnit.MyListsTests.testSaveFirstArticleToMyList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596398235372</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test commit 4.2.0">
+      <created>1596463088723</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596463088723</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,41 +240,42 @@
     <MESSAGE value="Test commit 3.2" />
     <MESSAGE value="Test commit 4.1" />
     <MESSAGE value="Test commit 4.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit 4.1.2" />
+    <MESSAGE value="Test commit 4.2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit 4.2.0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1596398234567">
+    <state x="680" y="151" key="CommitChangelistDialog2" timestamp="1596463087797">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1596398234567" />
+    <state x="680" y="151" key="CommitChangelistDialog2/0.0.2048.1114@0.0.2048.1114" timestamp="1596463087797" />
     <state x="605" y="218" key="FileChooserDialogImpl" timestamp="1595076349466">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="605" y="218" key="FileChooserDialogImpl/0.0.2048.1114@0.0.2048.1114" timestamp="1595076349466" />
-    <state width="2004" height="257" key="GridCell.Tab.0.bottom" timestamp="1595955099513">
+    <state width="2004" height="257" key="GridCell.Tab.0.bottom" timestamp="1596976047109">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="257" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1595955099513" />
-    <state width="2004" height="257" key="GridCell.Tab.0.center" timestamp="1595955099513">
+    <state width="2004" height="257" key="GridCell.Tab.0.bottom/0.0.2048.1114@0.0.2048.1114" timestamp="1596976047109" />
+    <state width="2004" height="257" key="GridCell.Tab.0.center" timestamp="1596976047109">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="257" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1595955099513" />
-    <state width="2004" height="257" key="GridCell.Tab.0.left" timestamp="1595955099513">
+    <state width="2004" height="257" key="GridCell.Tab.0.center/0.0.2048.1114@0.0.2048.1114" timestamp="1596976047109" />
+    <state width="2004" height="257" key="GridCell.Tab.0.left" timestamp="1596976047109">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="257" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1595955099513" />
-    <state width="2004" height="257" key="GridCell.Tab.0.right" timestamp="1595955099513">
+    <state width="2004" height="257" key="GridCell.Tab.0.left/0.0.2048.1114@0.0.2048.1114" timestamp="1596976047109" />
+    <state width="2004" height="257" key="GridCell.Tab.0.right" timestamp="1596976047109">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state width="2004" height="257" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1595955099513" />
+    <state width="2004" height="257" key="GridCell.Tab.0.right/0.0.2048.1114@0.0.2048.1114" timestamp="1596976047109" />
     <state x="533" y="188" key="SettingsEditor" timestamp="1595076368813">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
     <state x="533" y="188" key="SettingsEditor/0.0.2048.1114@0.0.2048.1114" timestamp="1595076368813" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596398244713">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596463097350">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1596398244713" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1114@0.0.2048.1114" timestamp="1596463097350" />
     <state x="516" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594903524165">
       <screen x="0" y="0" width="2048" height="1114" />
     </state>
