@@ -3,6 +3,7 @@ package tests;
 import lib.CoreTestCase;
 import lib.ui.MainPageObject;
 import lib.ui.SearchPageObject;
+import lib.ui.factories.SearchPageObjectFactory;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
@@ -12,7 +13,7 @@ public class SearchTests extends CoreTestCase
     @Test
     public void testSearch() {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
@@ -22,7 +23,7 @@ public class SearchTests extends CoreTestCase
     @Test
     public void testSearchAndClose() {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
         SearchPageObject.waitForCancelButtonToAppear();
@@ -35,7 +36,7 @@ public class SearchTests extends CoreTestCase
     public void testCancelSearchAndCheckDeletingResults()
     {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
@@ -49,7 +50,7 @@ public class SearchTests extends CoreTestCase
     public void testAmountOfNootEmptyScreen()
     {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
         SearchPageObject.initSearchInput();
         String search_line = "Linking Park Discography";
         SearchPageObject.typeSearchLine(search_line);
@@ -65,7 +66,7 @@ public class SearchTests extends CoreTestCase
     public void testAmountOfEmptySearch()
     {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
         SearchPageObject.initSearchInput();
         String search_line = "yddhbcsjn";
         SearchPageObject.typeSearchLine(search_line);
